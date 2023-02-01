@@ -1,0 +1,85 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    padding: 2rem;
+    background-color: rgb(231, 74, 74);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+nav .link-active{
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    padding: 0rem 2rem;
+    font-weight: 800;
+    font-size: larger;
+}
+a:hover{
+   background-color: darkcyan;
+   border-radius: 10px;
+
+}
+
+nav a {
+    color: aliceblue;
+    
+}
+
+input {
+    display: block;
+    margin: auto;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    border-color: #2563eb;
+}
+
+input[type="radio"]{
+    display: inline;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+label{
+    margin-right: 1rem;
+}
+
+button {
+    padding: 0.7rem;
+    font-size: medium;
+    border-radius: 0.5rem;
+    background-color: #60a5fa;
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+
+
+#output {
+    margin: 1rem 0rem;
+    font-weight: bold;
+    color: #1e3a8a;
+    font-size: large;
+}
+
+.content {
+    min-height: 70vh;
+}
+
+.quiz-content {
+    min-height: 180vh;
+}
